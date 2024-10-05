@@ -18,7 +18,7 @@ body{
     ---blue-color-primary-color: #3498db; /* Blue */
     ---solid-black: black; 
     ---white-color: rgb(255, 255, 255);
-    ---red--primary-color: rgb(235, 136, 6);
+    ---red--primary-color: rgb(250, 45, 45);
 }
 
 /*---
@@ -187,7 +187,7 @@ body{
     /* transform: translate(-50%, -50%); */
     width: 100%;
     height: 70vh;
-    /* background-color: rgba(8, 8, 8, 0.74); */
+    background-color: rgb(8, 8, 8);
     /* box-shadow: 10px 5px 10px 5px rgb(0, 0, 0); */
 }
 .container .slide .item{
@@ -220,13 +220,13 @@ body{
     opacity: 1;
 }
 .item1{
-    background-image: url(../images/bgh3.png);
+    background-image: url(../images/bn25.png);
 }
 .item2{
-    background-image: url(../images/bgh2.png);
+    background-image: url(../images/bn21.png);
 }
 .item3{
-    background-image: url(../images/bgh1.png);
+    background-image: url(../images/bn24.png);
 }
 .item .content{
     position: absolute;
