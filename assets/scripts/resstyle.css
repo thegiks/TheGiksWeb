@@ -158,13 +158,14 @@
     .menu-link{
         width: fit-content;
         margin: auto;
+        text-align: center;
     }
     .menu-link a i{
         display: unset;
         color: white;
     }
     .menu-link p a{
-        display: none;
+        font-size: 9px;
     }
 
     /* Banner */
@@ -603,5 +604,4 @@
     .txt-cnt .ttl{
         line-height: 25px;
     }
-}
-                       
+}                 
