@@ -11,6 +11,7 @@
     <!---
         @Stylesheet
     -->
+    <link rel="stylesheet" href="pops.css">
     <link rel="stylesheet" href="./assets/scripts/styles.css">
     <link rel="stylesheet" href="./assets/scripts/resstyle.css">
     <!---
@@ -20,6 +21,55 @@
     <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.css">
 </head>
 <body>
+    <!----
+        @TOPUPS
+    --->
+    <div class="s-pops-cnt">
+        <i class="fa-solid fa-times"></i>
+        <div class="s-c-services-cnt">
+            <h4>Support and Consultancy Services</h4>
+            <div class="h-s-cnt">
+                <div class="s-c-navigator">
+                    <div class="gd-cnt s-cnt">
+                        <h5>Graphics Designs</h5>
+                        <div class="s-ls">
+                            <p>Logo Design</p>
+                            <p>Company Profile</p>
+                            <p>Letter Head</p>
+                            <p>Business Flyer</p>
+                            <p>Business Card</p>
+                            <p>And Many More</p>
+                        </div>
+                    </div>
+                    <div class="chf-cnt s-cnt">
+                        <h5>Compter Hardware Repairs</h5>
+                        <div class="s-ls">
+                            <p>Loptop/Desktop Screens</p>
+                            <p>Motherbord Troubleshooting</p>
+                            <p>Desktop/Laptop Keybords</p>
+                            <p>Faul Identification</p>
+                            <p>Maintainance</p>
+                            <p>And many more</p>
+                        </div>
+                    </div>
+                    <div class="ict-cnt s-cnt">
+                        <h5>IT challenges Troubleshooting</h5>
+                        <div class="s-ls">
+                            <p>Windows Installation and Activation</p>
+                            <p>Systems Troubleshooting</p>
+                            <p>Printer Configerations</p>
+                            <p>Printer Troubleshooting</p>
+                            <p>IT consultations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-cnt-btns">
+                    <div class="rq-s"><button type="submit">Request Call back</button></div>
+                    <div class="rq-s"><button type="submit">Reffer a friend</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!----
         @TOPNAVBAR
     --->
@@ -37,7 +87,7 @@
         <div class="social-whatsapp flex-dis">
             <ul class="top-nav-social flex-dis">
                 <li class="social-liinks"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li class="social-liinks"><a href="#"><i class="fab fa-x-twitter"></i></a></li>
+                <li class="social-liinks"><a href="https://x.com/the_giks"><i class="fab fa-x-twitter"></i></a></li>
                 <li class="social-liinks"><a href="#"><i class="fab fa-linkedin"></i></a></li>
                 <li class="social-liinks"><a href="#"><i class="fab fa-github"></i></a></li>
                 <li class="social-liinks"><a href="#"><i class="fab fa-discord"></i></a></li>
@@ -61,23 +111,23 @@
             <ul class="nav-menu-links">
                 <li class="menu-link active-m-link">
                     <!-- <a href=""><i class="fa-solid fa-house"></i></a> -->
-                    <p><a href="#">Home</a></p>
+                    <p><a href="">Home</a></p>
                 </li>
                 <li class="menu-link">
                     <!-- <a href=""><i class="fa-solid fa-diagram-project"></i></a> -->
-                    <p><a href="#">Services</a></p>
+                    <p><a href="#services">Services</a></p>
                 </li>
                 <li class="menu-link">
                     <!-- <a href=""><i class="fa-solid fa-circle-info"></i></a> -->
-                    <p><a href="#">About</a></p>
+                    <p><a href="#about">About</a></p>
                 </li>
                 <li class="menu-link">
                     <!-- <a href=""><i class="fa-solid fa-blog"></i></a> -->
-                    <p><a href="#">Blog</a></p>
+                    <p><a href="#blog">Blog</a></p>
                 </li>
                 <li class="menu-link">
                     <!-- <a href=""><i class="fa-solid fa-address-card"></i></a> -->
-                    <p><a href="#">Contact</a></p>
+                    <p><a href="#contact">Contact</a></p>
                 </li>
             </ul>
             <div class="nav-accounts">
@@ -134,7 +184,7 @@
         @SERVICES
     --->
     
-    <div class="services">
+    <div id="services" class="services">
         <div class="sec-ttle">
             <h1>What we offer</h1>
             <h4>Services</h4>
@@ -149,7 +199,7 @@
                 <div class="sevice-cnt-txt-area">
                     <h4>IT Support and Consultancy</h4>
                     <p>Your one stop pool for all you tech solutions is now here, from software challenges, graphics designs to hardware fixes, TheGiks is just a phone call away, get exceplary professional IT slutions by the best professionals in town &#128512;</p>
-                    <a href="jobs.html">Learn More</a>  
+                    <a class="service-pop">Learn More</a>  
                 </div>
             </div>
             <div class="sevice-cnt">
@@ -182,7 +232,7 @@
     <!----
         @ABOUT
     --->
-    <div class="about-us">
+    <div id="about" class="about-us">
         <div class="sec-ttle">
             <h1>Why TheGiks?</h1>
             <h4>About Us</h4>
@@ -358,7 +408,8 @@
      <!----
         @BLOG POSTS
     --->
-    <div class="blog-posts">
+    
+    <div id="blog" class="blog-posts">
         <div class="sec-ttle">
             <h1>Blog Posts</h1>
             <h4>blog</h4>
@@ -448,7 +499,7 @@
         </div>
     </div>
     <footer>
-        <div class="footer-links">
+        <div id="contact" class="footer-links">
             <ul class="cntct-info f-lnk">
                 <h4>Our Contacts</h4>
                 <li><p>KFA Building Nakuru</p></li>
